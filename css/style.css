@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+
+.container {
+    background-color: #fff;
+    margin: 20px 150px;
+    height: 100vh;
+}
+.row {
+    background-color: white;
+    height: 400px;
+    margin-bottom: 20px;
+}
+.card {
+    float: left;
+    margin: 2% 0;
+    background-color: white;
+    height: 300px;
+    width: calc(100%/3);
+}
+.card-image {
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    
+}
+/* prima Immagine */
+.first-image {
+    width: auto;
+    height: 250px;
+    
+}
+.second-image {
+    width: auto;
+    height: 250px;
+    display: none;
+    
+}
+.card-heart {
+    position: absolute;
+    right: 0;
+    top: 15px;
+    font-size: 27px;
+    padding: 5px 10px;
+    background-color: white;
+    color: black;
+    
+    
+}
+.card-promo {
+    position: absolute;
+    bottom: 25px
+}
+
+.card-discount{
+    background-color: red;
+    
+}
+
+.card-tag {
+    background-color: green;
+}
+
+#info {
+    bottom: 100p;
+   
+    font-size: 15px;
+}
+
+.price {
+    color: red;
+    font-weight: bold;
+}
+.original-price{
+    text-decoration: line-through;
+}
+
+.card:hover .second-image {
+    display: inline-block;
+}
